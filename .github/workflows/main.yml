@@ -62,7 +62,7 @@ jobs:
         run: npm install
 
       - name: Run Unit Tests
-        run: npm run test -- --watch=false
+        run: npm run test:ci -- --watch=false
         
   output-name:
     runs-on: ubuntu-latest
